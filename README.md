@@ -29,7 +29,7 @@
 ##### Import
   >  Solo se admite en una dependencia del tipo pom en la sección `<dependencyManagement>`. Indica que la dependencia se reemplazará con la lista efectiva de dependencias.
 -----------------------------------------------
-### Que es un Arquetype?
+### Que es un Archetype?
 
   > En resumen, Archetype es un kit de herramientas de plantillas del proyecto Maven. Un Archetype se define como un patrón o modelo original a partir del cual se hacen todas las demás cosas del mismo tipo.
 -----------------------------------------------
@@ -45,5 +45,16 @@
   > - src/test/resources : En esta carpeta guardamos los recursos que usan los test.
 -----------------------------------------------
 ### Diferencia de Archetype y Artifact
+ > Artifact : Un Artifact es algo que es producido o utilizado por un proyecto Maven. Los ejemplos de artefactos producidos por Maven para un proyecto incluyen: JAR, distribuciones y fuentes binarias, WAR. Cada artefacto se identifica de forma única mediante una identificación de grupo y una ID de artefacto que es única dentro de un grupo.
+-----------------------------------------------
+### Explique los cuatro Stereotypes basicos
 
+##### @Component
+  > 
+##### @Repository
+  > 
+##### @Service
+  > 
+##### @Controller
+  > 
 -----------------------------------------------
