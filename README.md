@@ -50,11 +50,30 @@
 ### Explique los cuatro Stereotypes basicos
 
 ##### @Component
-  > 
+  > Es el estereotipo principal, indica que la clase anotada es un component (o un Bean de Spring).
 ##### @Repository
-  > 
+  > Es una especializacion de @Component para el caso concreto de persistencia.
 ##### @Service
-  > 
+  > Es una especializacion de @Component para el caso concreto de servicios.
 ##### @Controller
-  > 
+  > Es una especializacion de @Component para el caso concreto de controlador.
 -----------------------------------------------
+### Explique los verbos REST
+
+##### GET
+  > GET : Para recuperar un recurso. Es idempotente, es decir si la ejecutamos más de una vez siempre devuelve el mismo recurso.
+##### POST
+  > POST : Para añadir recursos. No es idempotente, es decir si la ejecutamos dos veces estaremos añadiendo dos recursos.
+##### PUT
+  > PUT : Para modificar un recurso. Es idempotente, si la ejecutamos más de una vez la modificación es siempre la misma.
+##### DELETE
+  > DELETE : Para borrar un recurso. Es idempotente, si lo ejecutamos más de una vez el resultado es siempre el mismo: el recurso deja de estar en el sistema (la primera vez se borra realmente, las siguientes veces simplemente se ignora la petición, pero no da error).
+##### HEAD
+  > HEAD : Para pedir un recurso sin recuperarlo, nos sirve para saber si existe o para traer metainformación sobre el recurso.
+##### OPTIONS
+  > OPTIONS : Para preguntarle a un servidor sobre que otros verbos son aplicables a un recurso determinado.
+##### PATH
+  > PATH : Es un intento de expresar de forma estándar actualizaciones parciales de un recurso.
+-----------------------------------------------
+@Matias_Simone
+
