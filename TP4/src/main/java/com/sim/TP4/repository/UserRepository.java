@@ -32,8 +32,4 @@ public interface UserRepository extends JpaRepository<UserData, Long> {
     ArrayList mostUtilizedBrowserAndOs();
 }
 
-/*
-Ordenar las carpetas y sus funciones para que estas correspondan bien al modelo MVC
-hacer la parte de teoria
-Y LISTOOO
- */
+
